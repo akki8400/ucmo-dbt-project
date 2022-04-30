@@ -7,9 +7,14 @@ public class Movies {
 	private int rentalDuration;
 	private double rentalRate;
 	private int movieLength;
-	private double replacementCost;
 	private String movieRating;
 	private String movieFeatures;
+	private String langage;
+	private String actorFirstName;
+	private String actorLastName;
+	private String category;
+	private String imageName;
+	
 	public String getTitle() {
 		return title;
 	}
@@ -46,12 +51,6 @@ public class Movies {
 	public void setMovieLength(int movieLength) {
 		this.movieLength = movieLength;
 	}
-	public double getReplacementCost() {
-		return replacementCost;
-	}
-	public void setReplacementCost(double replacementCost) {
-		this.replacementCost = replacementCost;
-	}
 	public String getMovieRating() {
 		return movieRating;
 	}
@@ -63,6 +62,36 @@ public class Movies {
 	}
 	public void setMovieFeatures(String movieFeatures) {
 		this.movieFeatures = movieFeatures;
+	}
+	public String getLangage() {
+		return langage;
+	}
+	public void setLangage(String langage) {
+		this.langage = langage;
+	}
+	public String getActorFirstName() {
+		return actorFirstName;
+	}
+	public void setActorFirstName(String actorFirstName) {
+		this.actorFirstName = actorFirstName;
+	}
+	public String getActorLastName() {
+		return actorLastName;
+	}
+	public void setActorLastName(String actorLastName) {
+		this.actorLastName = actorLastName;
+	}
+	public String getCategory() {
+		return category;
+	}
+	public void setCategory(String category) {
+		this.category = category;
+	}
+	public String getImageName() {
+		return imageName;
+	}
+	public void setImageName(String imageName) {
+		this.imageName = imageName;
 	}
 
 }
